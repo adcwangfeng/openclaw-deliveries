@@ -1,0 +1,30 @@
+{
+  "name": "openclaw-intro",
+  "version": "1.0.0",
+  "description": "OpenClaw 介绍视频",
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "remotion build",
+    "dev": "remotion dev",
+    "lint": "eslint src --ext ts,tsx",
+    "bundle": "remotion bundle",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/player": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/webpack": "^5.28.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
